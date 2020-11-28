@@ -63,7 +63,7 @@
         top: 25%;
 }
 
-.lboroShape{
+.aboutMe{
     height: min-content;
     width: 100%;
     position: relative;
@@ -73,17 +73,37 @@
     /* transition: transform 2s; Animation */
 }
 
+#p1{
+    max-width: fit-content;
+}
+
+.lboroShape{
+    height: min-content;
+    width: 33%;
+    display: inline-block;
+    position: relative;
+        left: 0;
+        top: 3vh;
+    background-color: #08080842;
+    border-radius: 10px;
+    padding: 2%;
+    /* transition: transform 2s; Animation */
+}
+
 .lboro{
     display: none;
 }
 
 .petrocShape{
     height: min-content;
-    width: 50%;
+    width: 33%;
+    display: inline-block;
     position: relative;
         top: 3vh; 
+        /* left: 33%; */
     background-color: #08080842;
     border-radius: 10px;
+    padding: 2%;
 }
 
 .petroc{
@@ -92,11 +112,17 @@
 
 .brauntonShape{
     height: min-content;
-    width: 50%;
+    width: 33%;
+    display:inline-block;
     position: relative;
-        /* top: 30vh; */
-        left: 50%;
+        top: 3vh; 
+        /* left: 66%; */
     background-color: #08080842;
     border-radius: 10px;
+    padding: 2%;
+}
+
+.braunton{
+    display:none;
 }
 

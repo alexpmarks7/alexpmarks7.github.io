@@ -45,3 +45,27 @@ function hidePetroc()
     lboroShape.style.height = 'min-height'
   
 }
+
+function showBraunton()
+{
+    var lboro = document.getElementById("braunton")
+    if (lboro.style.display = 'none')
+    {
+        lboro.style.display = 'block';
+    }
+    var lboroShape = document.getElementById("brauntonShape")
+    lboroShape.style.height = 'min-height'
+  
+}
+
+function hideBraunton()
+{
+    var lboro = document.getElementById("braunton")
+    if (lboro.style.display = 'block')
+    {
+        lboro.style.display = 'none';
+    }
+    var lboroShape = document.getElementById("brauntonShape")
+    lboroShape.style.height = 'min-height'
+  
+}
