@@ -1,0 +1,73 @@
+﻿.carousel-caption {
+    position: absolute;
+        top: 5%;
+        left: 0%;
+    width:100%;
+    height:mvh;
+
+}
+
+.absolute-div {
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+}
+
+.carousel-caption h3 {
+    /* display:table-cell; */
+    vertical-align: center;
+    text-align:center;
+}
+
+.item {
+    position:relative;
+}
+
+.mainShape {
+    height: 115%;
+    width: 60%;
+    background-color: #08080842;
+    border-radius: 10px;
+
+}
+
+
+.mainTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fd514ec5;
+    font-style: italic;
+    font-size: 5vw;
+    font-weight: bold;
+    position: relative;
+        top: 20%;
+    
+}
+
+.otherTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fd514ec5;
+    font-size: 3vw;
+    font-weight: bold;
+    position: relative;
+        top: 3%;
+    
+}
+
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vw;
+    font-style: italic;
+    position: relative;
+        top: 25%;
+}
+
+.lboroShape{
+    height: min-content;
+    width: 100%;
+    position: relative;
+        top: 3vh;
+    background-color: #08080842;
+    border-radius: 10px;
+}
