@@ -1,21 +1,47 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () { myFunction() };
-
-// Get the navbar
-var navbar = document.getElementById("NavBar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
+function showLboro()
+{
+    var lboro = document.getElementById("lboro")
+    if (lboro.style.display = 'none')
+    {
+        lboro.style.display = 'block';
     }
+    var lboroShape = document.getElementById("lboroShape")
+    lboroShape.style.height = 'min-height'
+  
 }
 
-function shapeToEnlarge(shape) {
-    var chosenShape = document.getElementById(shape);
+function hideLboro()
+{
+    var lboro = document.getElementById("lboro")
+    if (lboro.style.display = 'block')
+    {
+        lboro.style.display = 'none';
+    }
+    var lboroShape = document.getElementById("lboroShape")
+    lboroShape.style.height = 'min-height'
+  
+}
+
+function showPetroc()
+{
+    var lboro = document.getElementById("petroc")
+    if (lboro.style.display = 'none')
+    {
+        lboro.style.display = 'block';
+    }
+    var lboroShape = document.getElementById("petrocShape")
+    lboroShape.style.height = 'min-height'
+  
+}
+
+function hidePetroc()
+{
+    var lboro = document.getElementById("petroc")
+    if (lboro.style.display = 'block')
+    {
+        lboro.style.display = 'none';
+    }
+    var lboroShape = document.getElementById("petrocShape")
+    lboroShape.style.height = 'min-height'
+  
 }

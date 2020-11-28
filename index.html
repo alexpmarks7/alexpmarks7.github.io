@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="CVJavascript.js"></script>
 </head>
 <body>
 
@@ -44,9 +45,24 @@
                     <div class="carousel-caption">
                         <div class="mainShape">
                             <p class="otherTitle">Education</p>
-                            <div class="lboroShape" id="lShape" onmouseover="ShapeEnlarge(lShape)">
-                                <p>Loughbourough University</p>
+                            <div class="lboroShape" id="lboroShape" onmouseover="showLboro()" onmouseout="hideLboro()">
+                                <p>Loughborough University</p>
+                                <div class="lboro" id="lboro">
+                                    <br/>
+                                    <p>Mathematics and Sports Science</p>
+                                    <p>Upper Second Class</p>
+                                    <p>Captain of the Loughborough Students Union Golf Club</p>   
+                                </div>
                             </div>
+                            <br />
+                            <div class="petrocShape" id="petrocShape" onmouseover="showPetroc()" onmouseout="hidePetroc()">
+                                <p>Petroc</p>
+                                <div class="petroc" id="petroc">
+                                    <br/>
+                                    <p>Maths : A</p>
+                                </div>
+                            </div>
+                          
 
                         </div>
                         
@@ -89,6 +105,10 @@
             </a>
         </div>
        </div>
+
+    </style>
+
+    
 </body>
 
 </html>
