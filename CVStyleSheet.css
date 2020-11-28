@@ -35,10 +35,9 @@
 
 
 .mainTitle{
-    font-family: Lovelace, Times, serif;
-    color: #fd514ec5;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fdfdfd;
     font-size: 5vw;
-    font-weight: bold;
     position: relative;
         top: 20%;
 
