@@ -98,10 +98,10 @@
 
 #fullPageShape{
     position: fixed;
-        top: 43%;
+        top: 46.5%;
         left: 31%;
     text-align: left;
-    font-size: 3vw;   
+    font-size: 3.5vw;   
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
