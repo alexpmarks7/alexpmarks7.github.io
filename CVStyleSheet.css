@@ -189,3 +189,9 @@
 #skillPhotos{
     margin-left: 3%;
 }
+
+#linkedInLogo{
+    position:fixed;
+        right: 17%;
+        top:8%;
+}
