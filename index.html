@@ -29,13 +29,27 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img src="mainpage_grey.jpg" alt="main" style="width:100%; opacity:0.5; height:100vh">
                     
-                    <div class="carousel-caption">
+                    <img src="mainpage_grey.jpg" alt="main" style="width:35%; opacity:0.5; height:100vh">
+                    <style>
+                        body{
+                            background-color: #535353;
+                        }
                         
-                        <div class="mainShape">
-                            <p class="mainTitle">Alex Marks</p>
-                            <p class="info">C# Developer, with experience working in<br>and managing teams</p>
+                    </style>
+                    
+                    <div class="carousel-caption">  
+                                           
+                        <div class="frontPageShape">
+                            
+                        </div>
+                        <div class="fullPageShape" id="fullPageShape">
+                            <p>Alex</p>
+                            <p>Marks</p>
+                            <h1 id="frontPageHeader1">C# DEVELOPER |</h1>
+                            <h2 id="frontPageHeader2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius purus non velit faucibus, ut cursus mi maximus. Curabitur a nibh ac sem pellentesque elementum. Morbi cursus lorem sit amet urna commodo, vitae gravida arcu tempus. Cras eu odio at enim pellentesque fringilla. Fusce ut ultrices odio, vitae sodales leo. Fusce ornare, quam in suscipit ornare, sem purus sodales nunc, sed condimentum est turpis ultricies eros. Etiam vel sapien metus.
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -44,11 +58,12 @@
                     <img src="education_grey.jpg" alt="Education" style="width:100%; opacity:0.5; height:100vh">
                     <div class="carousel-caption">
                         <div class="mainShape">
-                            <p class="otherTitle">Education</p>
+                            <p class="otherTitle">About Me</p>
                             
                             <div class="aboutMe">
                                 <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at diam sed mauris finibus porta vel in nibh. Sed eu finibus arcu. Cras posuere ultrices risus sed pulvinar. Sed at libero luctus, dignissim ipsum non, dignissim ex. Sed molestie lacinia risus, in sodales ipsum vehicula vitae. Proin lobortis nunc sed malesuada blandit. Etiam dapibus elit ut sem consectetur porta.</p>
                             </div>
+
                             <div class="lboroShape" id="lboroShape" onmouseover="showLboro()" onmouseout="hideLboro()">
                                 <img src="lboro.png" width="95%">
                                 <div class="lboro" id="lboro">
@@ -57,8 +72,8 @@
                                     <p>Upper Second Class</p>
                                     <p>Captain of the Loughborough Students Union Golf Club</p>   
                                 </div>
-                                
                             </div>
+                            <br />
                             <div class="petrocShape" id="petrocShape" onmouseover="showPetroc()" onmouseout="hidePetroc()">
                                 <img src="petroc.png" width="95%">
                                 <div class="petroc" id="petroc">
@@ -68,13 +83,13 @@
                                     <p>A Level Geography : B</p>
                                 </div>
                             </div>
-                            <div class="brauntonShape" id="brauntonShape" onmouseover="showBraunton()" onmouseout="hideBraunton()">
+                            <!-- <div class="brauntonShape" id="brauntonShape" onmouseover="showBraunton()" onmouseout="hideBraunton()">
                                 <img src="braunton.png" width="95%">
                                 <div class="braunton" id="braunton">
                                     <br/>
                                     <p>Head Boy</p>
                                 </div>
-                            </div>
+                            </div> -->
                           
 
                         </div>
@@ -85,8 +100,10 @@
                 <div class="item">
                     <img src="tech_grey.jpg" alt="Tech" style="width:100%; opacity:0.5; height:100vh">
                     <div class="carousel-caption">
-                        <h3>Skills</h3>
-                        <p>I have skills</p>
+                        <div class="mainShape">
+                            <h3>Skills</h3>
+                            <p>I have skills</p>
+                        </div>
                     </div>
                 </div>
 

@@ -30,13 +30,14 @@
     width: 60%;
     background-color: #08080842;
     border-radius: 10px;
+    padding: 2%;
 
 }
 
 
 .mainTitle{
-    font-family: 'Courier New', Courier, monospace;
-    color: #fdfdfd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
     font-size: 5vw;
     position: relative;
         top: 20%;
@@ -44,12 +45,11 @@
 }
 
 .otherTitle{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fd514ec5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
     font-size: 3vw;
-    font-weight: bold;
     position: relative;
-        top: 3%;
+    
 
 }
 
@@ -75,13 +75,65 @@
     max-width: fit-content;
 }
 
+.frontPageShape{
+    position: fixed;
+        top: 30%;
+        left: 25%;
+    height: auto;
+    width: 20%; 
+    background-color: #535353;
+    border-radius: 50%;
+    padding: 2%;
+    padding-top: 20%;
+}
+
+.fullPageShape{
+    position:fixed;
+        top:0;
+        left:0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+#fullPageShape{
+    position: fixed;
+        top: 43%;
+        left: 31%;
+    text-align: left;
+    font-size: 3vw;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#frontPageHeader1{
+    position: fixed;
+        top: 62%;
+        left: 41%;
+    text-align: left;
+    font-size: 1.2vw;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#92cdaf;
+}
+
+#frontPageHeader2{
+    position: fixed;
+        top: 65%;
+        left: 41%;
+    width:50%;
+    text-align: left;
+    font-size: 1.2vw;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+}
+
+
 .lboroShape{
     height: min-content;
     width: 33%;
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
         left: 0;
-        top: 3vh;
+        top: 5vh;
     background-color: #08080842;
     border-radius: 10px;
     padding: 2%;
@@ -95,9 +147,10 @@
 .petrocShape{
     height: min-content;
     width: 33%;
-    display: inline-block;
+    /* display: inline-block; */
     position: relative;
-        top: 3vh; 
+        left: 0;
+        top: 5vh; 
         /* left: 33%; */
     background-color: #08080842;
     border-radius: 10px;
@@ -113,7 +166,7 @@
     width: 33%;
     display:inline-block;
     position: relative;
-        top: 3vh; 
+        top: 20vh; 
         /* left: 66%; */
     background-color: #08080842;
     border-radius: 10px;
