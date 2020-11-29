@@ -64,7 +64,7 @@ function moveCSharp() {
             elem.innerHTML = width + "%";
         }
     }
-    
+    time
   }
 }
 
@@ -123,6 +123,50 @@ function moveGit() {
    
     function frame() {
         if (width >= 80) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width++;
+            elem.style.width = (width/2 + "%");
+            elem.innerHTML = width + "%";
+        }
+    }
+    
+  }
+}
+
+var i = 0;
+function moveManagement() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("managementBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+   
+    function frame() {
+        if (width >= 90) {
+            clearInterval(id);
+            i = 0;
+        } else {
+            width++;
+            elem.style.width = (width/2 + "%");
+            elem.innerHTML = width + "%";
+        }
+    }
+    
+  }
+}
+
+var i = 0;
+function movePSolving() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("pSolvingBar");
+    var width = 10;
+    var id = setInterval(frame, 10);
+   
+    function frame() {
+        if (width >= 90) {
             clearInterval(id);
             i = 0;
         } else {
