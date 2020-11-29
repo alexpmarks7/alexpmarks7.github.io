@@ -177,3 +177,15 @@
     display:none;
 }
 
+.photoLibrary{
+    width:100;
+    display: inline-block;
+    position: fixed;
+        right:3%;
+        bottom: 10vh;
+  
+}
+
+#skillPhotos{
+    margin-left: 3%;
+}
